@@ -1,0 +1,8 @@
+TODO
+#1. Create a classification object in scikit learn package (such as perceptron, logistic regression, or other classification algorithms)
+log_reg = sklearn.linear_model.LogisticRegression(tol=0.01, C=10.0,max_iter=10000)
+
+#2. Fit the object to training dataset
+log_reg.fit(X_train, y_train,)
+#3. Predict the label of test data point (X_test)
+y_pred = log_reg.predict(X_test)
